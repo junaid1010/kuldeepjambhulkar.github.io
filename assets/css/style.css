@@ -5,13 +5,6 @@
     scroll-behavior: smooth;
 }
 
-/* pfp */
-.pfp{
-    height: 15rem;
-    width: 15rem;
-    border-radius: 50%;
-}
-
 .mw-42{
     max-width: 42rem;
 }
@@ -25,3 +18,4 @@
 .list-inline-item:not(:last-child) {
     margin-right: .9rem;
 }
+
