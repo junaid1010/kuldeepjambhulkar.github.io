@@ -1,0 +1,12 @@
+.btn-back{
+    display: block;
+    background: white;
+    padding: 0.5rem;
+    position: fixed;
+    top: 35;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.btn-back:hover{
+    color: #0275d8;
+}
