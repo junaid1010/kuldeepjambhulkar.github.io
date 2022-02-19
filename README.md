@@ -1,5 +1,5 @@
-Personal webiste!
+Personal website!
 
-work in progress⚙🛠
+Work in progress⚙🛠
 
 Preview: [kuldeepjambhulkar.github.io](https://kuldeepjambhulkar.github.io)
