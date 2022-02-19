@@ -1,0 +1,689 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Where to find icons for your next project?</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+}
+
+.simple-table-header {
+	background: rgb(247, 246, 243);
+	color: black;
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="0ae853db-7cdd-4e7d-8a8b-bbdd6cc8869f" class="page sans"><header><h1 class="page-title">Where to find icons for your next project?</h1></header><div class="page-body"><p id="f781c336-3951-42c9-bee8-f9c4ebd2aa03" class=""><time>@February 19, 2022</time> </p><p id="dd5dfac7-3eb8-4932-b9e1-33dfaa8156b1" class="">
+</p><h3 id="c5826609-b6bc-4d6b-8785-b17717a57cbc" class="">Font Awesome</h3><figure id="181e4ff4-89d5-4ecd-9f27-68e9f607d073"><a href="https://fontawesome.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Font Awesome</div><div class="bookmark-description">The world&#x27;s most popular and easiest to use icon set just got an upgrade. More icons. More styles. More Options.</div></div><div class="bookmark-href"><img src="https://fontawesome.com/favicon.ico" class="icon bookmark-icon"/>https://fontawesome.com/</div></div><img src="https://img.fortawesome.com/349cfdf6/fontawesome-open-graph.png" class="bookmark-image"/></a></figure><p id="98293352-4522-4b80-a4ad-e9911ed0bfe7" class="">
+</p><h3 id="fa8d83c9-471a-4d79-93c7-28e5b57915d7" class="">Bootstrap Icons</h3><figure id="cf418e38-baee-45f4-80da-854a059384d0"><a href="https://icons.getbootstrap.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Bootstrap Icons</div><div class="bookmark-description">Official open source SVG icon library for Bootstrap</div></div><div class="bookmark-href"><img src="https://icons.getbootstrap.com/assets/img/favicons/favicon.ico" class="icon bookmark-icon"/>https://icons.getbootstrap.com/</div></div><img src="https://icons.getbootstrap.com/assets/img/bootstrap-icons-social.png" class="bookmark-image"/></a></figure><p id="4aa6e0e8-a4e8-49f1-aca5-ef0da47bde3d" class="">
+</p><h3 id="0d235506-ee2a-45eb-b2bd-fe31deb9843a" class="">Icons8</h3><figure id="5fb736ed-cb94-4977-8e3a-f3cad3f9fef7"><a href="https://icons8.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Free Icons, Clipart Illustrations, Photos, and Music</div><div class="bookmark-description">Download design elements for free: icons, photos, vector illustrations, and music for your videos. All the assets made by designers → consistent quality ⚡️</div></div><div class="bookmark-href"><img src="https://icons8.com/vue-static/landings/primary-landings/favs/icons8_fav_32×32.png" class="icon bookmark-icon"/>https://icons8.com/</div></div><img src="https://icons8.com/vue-static/landings/page-index/preview-main-page.png" class="bookmark-image"/></a></figure><p id="dd405185-73cf-4653-8fe5-14a7294f72ea" class="">
+</p><h3 id="0648c5ad-0217-4bdc-acdb-ee5d73df4beb" class="">Flaticon</h3><figure id="873b03ac-53e2-4807-8a48-e84538371dc3"><a href="https://www.flaticon.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Free Icons and Stickers - Millions of resources to download</div><div class="bookmark-description">We are sorry you canceled your Premium subscription You can still enjoy Flaticon Collections with the following limits: You can choose only 3 collections to keep You can only add up to 100 icons per collection You cannot add Premium icons to your collection The advantages of your collections changed</div></div><div class="bookmark-href"><img src="https://media.flaticon.com/dist/min/img/favicon.ico" class="icon bookmark-icon"/>https://www.flaticon.com/</div></div><img src="https://media.flaticon.com/share/flaticon-generic.jpg" class="bookmark-image"/></a></figure><p id="8bd418ed-4ef1-4476-8a9c-e1c63137b371" class="">
+</p><h3 id="45aa85ff-387d-434f-9f28-00cb3a2910b8" class="">Iconfinder</h3><figure id="3cf644f7-761b-4783-99f0-0193f9236265"><a href="https://www.iconfinder.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">6,150,000+ free and premium vector icons, illustrations and 3D illustrations</div><div class="bookmark-description">&quot;Undoubtedly, It is the best marketplace to upload and sell your icons easily, get good custom projects, and earn handsome amounts as they share the best in industry cuts with designers.We would like to thank team Iconfinder for creating this awesome ecosystem and providing the designers an opportunity to be a part of it.&quot;</div></div><div class="bookmark-href"><img src="https://www.iconfinder.com/static/img/favicons/favicon-16x16.png?65f75976b2" class="icon bookmark-icon"/>https://www.iconfinder.com/</div></div><img src="https://www.iconfinder.com/static/img/meta-generic.png?d34117af5a" class="bookmark-image"/></a></figure><p id="4286066f-4847-4a9c-a257-706b89fd520d" class="">
+</p><h3 id="a05ac4f9-f9ac-4784-8481-e73e8bd6cf17" class="">Iconscout</h3><figure id="898677c1-1c91-44a0-a86d-0a3902fe5dee"><a href="https://iconscout.com/unicons" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">4500+ Free Vector Icons | Unicons by Iconscout</div><div class="bookmark-description">World of Integrations Iconscout has integrations with Figma, Adobe XD, Sketch, Illustrator, GSuite, and MS Office. Our plugins let you find assets without you leaving the tools you&#x27;re using.</div></div><div class="bookmark-href"><img src="https://iconscout.com/favicon.ico" class="icon bookmark-icon"/>https://iconscout.com/unicons</div></div><img src="https://iconscout.com/og/unicons.png" class="bookmark-image"/></a></figure><p id="ba194479-18e1-49cb-9331-2b59a5647d04" class="">
+</p><h3 id="2f079c42-5f29-47a0-bb62-78e48b7be1a4" class="">Google Fonts</h3><figure id="98dcbf99-4d42-4cf9-80ce-e3f98194a410"><a href="https://fonts.google.com/icons" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Google Fonts</div><div class="bookmark-description">Making the web more beautiful, fast, and open through great typography</div></div><div class="bookmark-href">https://fonts.google.com/icons</div></div><img src="https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/opengraph_color.png" class="bookmark-image"/></a></figure><p id="2e27aacd-f978-4b04-820f-dabba2579564" class="">
+</p><h3 id="c31f5b1b-e8a0-4b85-93e6-bed01f4ab26b" class="">Feather Icons</h3><figure id="067b5841-4a07-40a1-893e-62a4f566be62"><a href="https://feathericons.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Feather - Simply beautiful open source icons</div><div class="bookmark-description">Feather is a collection of simply beautiful open source icons. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency and readability.</div></div><div class="bookmark-href"><img src="https://feathericons.com/favicon-16x16.png" class="icon bookmark-icon"/>https://feathericons.com/</div></div><img src="https://feathericons.com/feather-og.png" class="bookmark-image"/></a></figure><p id="82557f87-8720-4231-9811-dced3d8da542" class="">
+</p><h3 id="6d2af426-c1d3-4c28-957a-ee9cfacaedc7" class="">Ionic</h3><figure id="241fc7ee-b573-4ce9-b56a-608911948d65"><a href="https://ionic.io/ionicons" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Ionicons: The premium icon pack for Ionic Framework</div><div class="bookmark-description">Ionicons is an open-sourced and MIT licensed icon pack.</div></div><div class="bookmark-href"><img src="https://ionic.io/ionicons/assets/img/meta/favicon-96x96.png" class="icon bookmark-icon"/>https://ionic.io/ionicons</div></div><img src="https://ionic.io/ionicons/assets/img/meta/ionicons-og.png" class="bookmark-image"/></a></figure><p id="cc9360c8-8ac1-4b22-9a3c-50c3b9e8d2b6" class="">
+</p><h3 id="8e59e215-2548-46c9-8c2b-109d5996a849" class="">Captain Icon</h3><figure id="b7fb6fa9-af78-4717-b963-b408714d106d"><a href="https://mariodelvalle.github.io/CaptainIconWeb/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Captain Icon</div><div class="bookmark-description">350 Awesome free vector icons to empower your mobile and web designs</div></div><div class="bookmark-href"><img src="https://mariodelvalle.github.io/CaptainIconWeb/favicon.ico" class="icon bookmark-icon"/>https://mariodelvalle.github.io/CaptainIconWeb/</div></div></a></figure><p id="11f7ff1b-9d9e-42e4-a3c5-66bd14176dbb" class="">
+</p><h3 id="94cd4c23-3c43-42db-9f65-d2a5c4188277" class="">The Noun Project</h3><figure id="22dbedef-f95d-418d-80a0-32e7cda07122"><a href="https://thenounproject.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Noun Project: Free Icons &amp; Stock Photos for Everything</div><div class="bookmark-description">Noun Project features the most diverse collection of icons and stock photos ever. Download SVG and PNG. Browse over 3 million art-quality icons and photos.</div></div><div class="bookmark-href"><img src="https://static.production.thenounproject.com/img/favicons/favicon-16x16.0b6183ac3673.png" class="icon bookmark-icon"/>https://thenounproject.com/</div></div></a></figure><p id="5116f2ad-c04a-414f-a4b4-c81826a40e5d" class="">
+</p><h3 id="805b343f-825f-4806-afd3-7b992468d706" class="">IconMonstr</h3><figure id="8653998b-a873-4541-ad17-96141f1d32a0"><a href="https://iconmonstr.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">iconmonstr - Free simple icons for your next project</div><div class="bookmark-description">Free simple icons for your next project</div></div><div class="bookmark-href"><img src="https://iconmonstr.com/wp-content/themes/iconmonstr/assets/ico/2.0.0/favicon.ico" class="icon bookmark-icon"/>https://iconmonstr.com/</div></div></a></figure><p id="29671e3d-5612-4e83-82ec-6d3cf2a5cab0" class="">
+</p><h3 id="aa8458d0-b5ab-4a91-887a-fc96b84f449f" class="">Glyphicons</h3><figure id="d9c98379-d5fa-49da-af83-eec646e50d54"><a href="https://glyphicons.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">GLYPHICONS - Visual language that everybody understands</div><div class="bookmark-description">GLYPHICONS® are precisely prepared monochromatic icons and symbols, created with an emphasis to simplicity and easy orientation.</div></div><div class="bookmark-href"><img src="https://glyphicons.com/favicon.ico" class="icon bookmark-icon"/>https://glyphicons.com/</div></div><img src="https://www.glyphicons.com/img/glyphicons-og.jpg" class="bookmark-image"/></a></figure><p id="045ee327-50db-4213-8581-dcc9765d6021" class="">
+</p><h3 id="c2d82c64-02d7-4fec-9b42-a0f469d75909" class="">Entypo</h3><figure id="81ecdcfa-247e-4802-9490-3256ecf91f66"><a href="http://entypo.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Entypo</div><div class="bookmark-description">Entypo is a suite of 411 carefully crafted premium pictograms by Daniel Bruce.</div></div><div class="bookmark-href"><img src="http://entypo.com/images/entypo-favicon.png" class="icon bookmark-icon"/>http://entypo.com/</div></div></a></figure><p id="e565749d-a1ed-4e32-a7c8-d4e03391ceaf" class="">
+</p><h3 id="b89f5891-b4d5-4147-aed9-aadfd617ff5e" class="">EndlessIcons</h3><figure id="7b5a51c5-b30c-41b1-807f-000d678a9826"><a href="http://endlessicons.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Endless Icons</div><div class="bookmark-description">Free Icons and creative stuff</div></div><div class="bookmark-href"><img src="https://endlessicons.com/favicon.ico" class="icon bookmark-icon"/>http://endlessicons.com/</div></div><img src="https://s0.wp.com/i/blank.jpg" class="bookmark-image"/></a></figure><p id="04dd2e05-9ac5-4761-8aa1-09b705984b36" class="">
+</p><h3 id="f64c8ce5-f637-43d7-a30a-14eb320bcaf2" class="">Fontello</h3><figure id="3afb8da1-53d4-4c66-b5b9-96ee6b5f22d5"><a href="https://fontello.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Fontello - icon fonts generator</div><div class="bookmark-description">Tool to build custom fonts with icons.</div></div><div class="bookmark-href"><img src="https://fontello.com/favicon.ico" class="icon bookmark-icon"/>https://fontello.com/</div></div></a></figure><p id="29a17c43-ef74-4140-886f-082a01a852bc" class="">
+</p><h3 id="abb812ad-5455-4811-989a-aa5f0209a2f5" class="">Squid Ink</h3><figure id="2bfda08c-456d-4760-86dd-f7b0e60935be"><a href="https://thesquid.ink/flat-icons/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Vector Flat Icons</div><div class="bookmark-description">Biggest Flat Icons Pack Ever. Each element was designed with vector shapes. Change colors or layer styles, move and re-size every single element in no-time.</div></div><div class="bookmark-href"><img src="https://thesquid.ink/favicon.ico" class="icon bookmark-icon"/>https://thesquid.ink/flat-icons/</div></div><img src="http://thesquid.ink/wp-content/uploads/2016/03/squid_ink_cm_image_preview-o2-1160x772-55769.jpg" class="bookmark-image"/></a></figure><p id="ef100b34-cf2f-42cb-bd69-6b1b5ff4f151" class="">
+</p><h3 id="ccb1c2aa-1895-4875-b86b-cc7d079d6016" class="">GraphicBurger</h3><figure id="04d2bc64-ca64-478f-9b18-efc684b041f6"><a href="https://graphicburger.com/icons-set/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Icons | GraphicBurger</div><div class="bookmark-description">Check out this collection of 43 icons designed with great attention to detail, definitely worth adding to your resource...</div></div><div class="bookmark-href"><img src="https://graphicburger.com/wp-content/themes/wp-pravda/img/favicon.ico" class="icon bookmark-icon"/>https://graphicburger.com/icons-set/</div></div><img src="https://graphicburger.com/wp-content/uploads/2018/03/envato-sponsored-icons.jpg" class="bookmark-image"/></a></figure><p id="a1bbc964-2cfd-4941-9c3e-c88dddb8ed01" class="">
+</p><h3 id="d18b9aae-1f9b-455c-9b4c-a8fd9268e90b" class=""><strong><strong>Free Hand-Drawn Vector Icons</strong></strong></h3><figure id="1e7c152d-0b4f-4446-9931-2ecf4a129c66"><a href="https://goodstuffnononsense.com/icons-category/free/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Free Vector Icons And Icon Packs In Cute Hand-Drawn Style</div><div class="bookmark-description">Looking for awesome free vector icons and icon packs for your projects? Here you&#x27;ll find a collection of hand drawn, vector icons that you can download for free. All files available in SVG and/or PNG format.</div></div><div class="bookmark-href"><img src="https://goodstuffnononsense.com/wp-content/uploads/2016/03/cropped-gsnn-sygnet-heart-2-300x300.png" class="icon bookmark-icon"/>https://goodstuffnononsense.com/icons-category/free/</div></div><img src="https://goodstuffnononsense.com/wp-content/uploads/2020/03/Pandemic-hand-drawn-icons-coronavirus-medical-doodle-illustration-clipart-cover-700x460.jpg" class="bookmark-image"/></a></figure><p id="233fae59-cb67-4b92-8bf9-33c0cb600ec8" class="">
+</p><h3 id="7ab8fb5b-2ea2-4561-8ff9-ea3ab2c33d09" class="">Oxygenna</h3><figure id="11877a95-4967-4912-928c-1d655b50ef73"><a href="https://www.oxygenna.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Homepage - Oxygenna Web Design</div><div class="bookmark-description">Free Graphic Design Resources &amp; Downloads Who doesn&#x27;t love a great freebie?! Download these awesome, free graphic design resources today. Your bank balance will appreciate it and you will love the goodies, we promise we won&#x27;t judge you for downloading them all!</div></div><div class="bookmark-href"><img src="https://www.oxygenna.com/wp-content/uploads/2018/07/cropped-logo-big-192x192.png" class="icon bookmark-icon"/>https://www.oxygenna.com/</div></div><img src="https://www.oxygenna.com/wp-content/uploads/2018/07/omega.oxygenna.com_-820x513.jpg" class="bookmark-image"/></a></figure><p id="dfb3732a-24f4-412f-91d9-186e9c0828f4" class="">
+</p><h3 id="51338377-ba07-4843-8d87-8de90f490e4c" class=""><strong><strong>Freebiesbug</strong></strong></h3><figure id="72626834-def4-4771-9e0e-842e2ed60e40"><a href="https://freebiesbug.com/psd-freebies/icons/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Free PSD icons - Freebiesbug</div><div class="bookmark-description">A collection of free PSD icons crafted and released by talented designers you can use for your projects or just for inspiration</div></div><div class="bookmark-href"><img src="https://cdn.freebiesbug.com/favicon.ico" class="icon bookmark-icon"/>https://freebiesbug.com/psd-freebies/icons/</div></div><img src="https://cdn.freebiesbug.com/wp-content/uploads/2021/10/136650060_224811135884383_1789226083215389687_n.png" class="bookmark-image"/></a></figure><p id="49ecbfee-61fe-443d-8aff-2606b6542f22" class="">
+</p><h3 id="83fd515f-4643-4de9-8bc7-b180b52467d4" class="">Vecteezy</h3><figure id="a2b0549d-e075-49e5-bece-7a2afb0f2669"><a href="https://www.vecteezy.com/free-vector/icons" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Download Free Vectors, Clipart Graphics, Vector Art &amp; Design Templates</div><div class="bookmark-description">Browse 1,183,666 incredible Icons vectors, icons, clipart graphics, and backgrounds for royalty-free download from the creative contributors at Vecteezy!</div></div><div class="bookmark-href"><img src="https://www.vecteezy.com/favicon.ico" class="icon bookmark-icon"/>https://www.vecteezy.com/free-vector/icons</div></div><img src="https://static.vecteezy.com/system/resources/previews/000/685/237/original/digital-marketing-thin-line-icons-vector.jpg" class="bookmark-image"/></a></figure><p id="f82d2939-a81f-4e20-b6c7-35c289fb20af" class="">
+</p><h3 id="e575d801-1b47-4b2a-8937-e73a4da13b79" class="">Graphicsfuel</h3><figure id="8d198108-d11b-4f32-9e77-8c6a65e91a8e"><a href="https://www.graphicsfuel.com/category/icons/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Icons Archives - GraphicsFuel</div><div class="bookmark-description">This beautifully designed Cryptocurrency 3D pack contains 55 3Ds. These 3ds are in PNG and Blend formats.</div></div><div class="bookmark-href"><img src="https://www.graphicsfuel.com/wp-content/uploads/2020/05/GraphicsFuel-Icon-300x300.png" class="icon bookmark-icon"/>https://www.graphicsfuel.com/category/icons/</div></div><img src="https://www.graphicsfuel.com/wp-content/uploads/elementor/thumbs/new-preview-big-icons-pack1-o8mm4apxpluvxe3ew0zmvnrwpr7bfdybdhmt1u0ews.jpg" class="bookmark-image"/></a></figure><p id="f586c48c-a4af-4e1e-9a98-d6e089c5ec1d" class="">
+</p><h3 id="677dccc7-7bba-4f01-9423-14b97f187730" class="">Icojam</h3><figure id="5ede14ea-8737-4d93-9c1e-7353dccced5d"><a href="https://www.icojam.com/blog/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Blog &amp; Freebies - Icojam</div><div class="bookmark-description">Tidee is our new free icon set which will be updated constantly with new free icons. Subscribe to get new releases first.</div></div><div class="bookmark-href"><img src="https://www.icojam.com/wp-content/uploads/2018/11/FAVICO_2.png" class="icon bookmark-icon"/>https://www.icojam.com/blog/</div></div><img src="https://www.icojam.com/wp-content/uploads/2021/04/blog_icons_tidee_027.jpg" class="bookmark-image"/></a></figure><p id="0e58ded5-48dd-4893-9793-be4f0cd48ce1" class="">
+</p><h3 id="c0bbe24e-45f0-457d-8ff9-8f9e185a6cae" class="">Iconshock</h3><figure id="7644ffd2-bab5-49ee-a92a-d98a5ad13fb0"><a href="https://www.iconshock.com/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Iconshock - 2 million stock icons and 800 icon sets</div><div class="bookmark-description">free icons and premium icon packs. Flat icons, Material icons, Glyph icons, iOS icons, Font icons, and more design styles. Vector files, including PNG and SVG icons. Ready for apps, web or social media projects.</div></div><div class="bookmark-href"><img src="https://www.iconshock.com/img/favicon.ico" class="icon bookmark-icon"/>https://www.iconshock.com/</div></div><img src="https://www.iconshock.com/img/iconshock_og.png" class="bookmark-image"/></a></figure><p id="fca72d61-3de3-4b1d-bcb2-998bc36b7ba5" class="">
+</p><h3 id="5971e4ff-4314-4215-9da9-4e5fc3b92931" class="">StreamlineHQ</h3><figure id="fef7a712-b647-4484-84f3-70055e8e4f9b"><a href="https://streamlinehq.com/freebies" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">4,500 Free vectors icons, illustrations, emojis.</div><div class="bookmark-description">The best graphic assets for makers. Since 2010, we have produced the best design assets for developers, designers and makers. We are famous for our Streamline Icons, vector illustrations, and Emojis. Streamline focuses on quality of design and yet makes the largest sets you&#x27;ll find on the damn internet.</div></div><div class="bookmark-href"><img src="https://uploads-ssl.webflow.com/5f59339c01fc322b69869dd9/5f5936ce192739ad632da855_bubble-white-32.png" class="icon bookmark-icon"/>https://streamlinehq.com/freebies</div></div></a></figure><p id="ff6c01cf-9dec-420e-85da-a3957b4c2a53" class="">
+</p><h3 id="c9f756ef-34bd-4875-8a72-380064223dd2" class="">Dreamstale</h3><figure id="b45d3489-31aa-4878-a7d8-4be3df973709"><a href="https://www.dreamstale.com/free-downloads/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title"></div></div><div class="bookmark-href">https://www.dreamstale.com/free-downloads/</div></div></a></figure><p id="dee193cc-af40-4d1c-80d2-3032f950e5bb" class="">
+</p><h3 id="ce21fb35-cf73-4b0b-9c74-898d4ff0db5d" class="">1001freedownloads</h3><figure id="dad98835-035b-4d5d-b90a-e41fad0132f9"><a href="https://www.1001freedownloads.com/free-icons/?pp=100" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Download Free Vectors, Photos, Icons, PSDs and more</div><div class="bookmark-description">Download free vectors, photos, icons, fonts, wallpapers and more. We&#x27;re constantly expanding our content with exclusive 1001freedownloads.com files</div></div><div class="bookmark-href"><img src="https://www.1001freedownloads.com/favicon1001.ico" class="icon bookmark-icon"/>https://www.1001freedownloads.com/free-icons/?pp=100</div></div><img src="https://media.istockphoto.com/vectors/monitor-black-and-white-square-icon-vector-id1139911733?b=1&amp;k=20&amp;m=1139911733&amp;s=170667a&amp;h=DTPhc98UarcmvXAruSLtDiXh_xRk9vXdFpGhJbe-klw=" class="bookmark-image"/></a></figure><p id="8890751b-c0a3-4b9e-9b44-9207551d903c" class="">
+</p><p id="9e2e5b4a-5cb4-402f-97d5-eaf6a7bd7fe1" class="">
+</p><h3 id="6f720d1b-298a-4158-8cee-6feb2cc8b603" class="">CSSAuthors/FreeIcons (weekly round up of the best free icons on the web)</h3><figure id="10397b1e-3555-461e-9142-350535cb2de0"><a href="https://cssauthor.com/free-icons/" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">Free Icons Archives &quot; CSS Author</div></div><div class="bookmark-href"><img src="https://cssauthor.com/wp-content/uploads/2021/01/favicon.ico" class="icon bookmark-icon"/>https://cssauthor.com/free-icons/</div></div><img src="https://cdn.cssauthor.com/wp-content/uploads/2016/06/Food-Related-Design-Resources.png?strip=all&amp;lossy=1&amp;resize=560%2C560&amp;ssl=1" class="bookmark-image"/></a></figure><p id="b5c92b92-f3af-4589-b267-27cf14640d59" class="">
+</p><p id="46439103-7e68-4285-8fa5-1e787f1d7d65" class="">
+</p></div></article></body></html>
