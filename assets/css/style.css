@@ -12,7 +12,7 @@
 .emoji-img{
     height: 20px;
     width: 20px;
-    vertical-align: bottom;
+    vertical-align: sub;
 }
 
 .list-inline-item:not(:last-child) {
